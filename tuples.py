@@ -1,4 +1,3 @@
-
 def get_coordinate(record):
     return record[1]
 
@@ -15,4 +14,4 @@ def create_record(azara_record, rui_record):
     if a == b:
         return azara_record + rui_record
     else:
-        return "no coinciden"
+        return "not a match"
